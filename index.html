@@ -47,7 +47,6 @@
         <div id="lead-content">
             <h1>Sung-hoon</h1>
             <h2>Portpolio</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -80,7 +79,7 @@
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">경험</h2>
+        <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="2013년 7월 ~ 2014년 1월">
                 <h3>(주)이엘텍 회사 입사</h3>
@@ -153,10 +152,18 @@
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>아두이노를 활용한 자동차 사고대응 시스템 구현</h3>
+                        <p><span>contents</span></p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Bluetooth와 GPS 기반의 자동차 사고 대응 시스템을 구현한다.
+                            크게 충돌, 전복, 침수사고로 나누어져 있다.
+                            충돌사고에 대해서는 Vibration Sensor를 이용하고,
+                            전복사고에 대해서는 Gyro Sensor를 이용하고,
+                            침수사고에 대해서는 Water Sensor를 이용하여 사고 유무를 Bluetooth를 통해 휴대폰 어플리케이션으로 전송한다.
+                            사고가 발생할 경우 휴대폰 어플리케이션은 GPS 값을 보험사, 경찰서, 소방서 등에게 메시지 전송을 통해 사고 접수를 수행한다.
+                            구현된 차량 사고 대응 시스템은 정해진 센서에 따라 사고를 인식하고,
+                            휴대폰을 이용해 사고 접수 및 대응하는 시스템이다.    
                         </p>
-                        <a href="https://github.com/acjswo111/acjswo111.github.io/raw/master/%EC%9E%90%EB%8F%99%EC%B0%A8%20%EC%82%AC%EA%B3%A0%EB%8C%80%EC%9D%91%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%85%BC%EB%AC%B8.hwp">한신대학교 논문 파일</a>
+                        <a href="https://github.com/acjswo111/acjswo111.github.io/raw/master/project.zip">한신대학교 논문 파일</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -168,11 +175,12 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>아두이노 스마트팜</h3>
+                        <h3>스마트팜 프로젝트</h3>
+                        <p><span>contents</span></p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        진행중
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="#">No link</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -184,9 +192,14 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>임베디드 수업 기말 프로젝트</h3>
+                        <h3>임베디드S/W 기말 프로젝트</h3>
+                        <p><span>contents</span></p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            시작과 동시에 LCD화면에 “SYSTEM START” 표시 및 대기한다.
+                            OPAMP에 90이상의 소리를 가하면 0.5초 간격으로 4가지 센서 CDS, PSD, Temp, Humidity를 LCD 화면에 표시함.
+                            거리가 100cm이하이면 buzzor가 울리고, Temp가 30도 이상이면 FAN이 가동된다.
+                            Humidity가 50도 이하일 경우 2개의 digits 7-SEG LED에 “50” 숫자가 나오고 동시에 2개의LED가 blink된다.
+                            임의의 Key Pad를 누르면 시스템 초기화가 되면서 LCD화면에 “SYSTEM START”로 표시 및 대기를 한다.   
                         </p>
                         <a href="https://github.com/acjswo111/acjswo111.github.io/raw/master/%EB%B0%95%EC%83%81%EC%9A%B0%2C%EC%B5%9C%EC%84%B1%ED%9B%88%20%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C%20%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8.zip">기말 프로젝트 파일</a>
                     </div>
@@ -203,8 +216,10 @@
             <li>html</li>
             <li>Python</li>
             <li>C</li>
-            <li>Linux</li>
             <li>MySQL</li>
+            <li>Linux</li>
+            <li>Arduino</li>
+            <li>raspberryPi</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -239,7 +254,7 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
